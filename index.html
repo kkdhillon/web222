@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #390440;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #333;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+      }
+
+      .taskbar {
+        background-color: #333;
+        overflow: hidden;
+      }
+
+      .taskbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .taskbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      header {
+        background-color: rgb(125, 48, 106);
+        color: rgb(15, 15, 15) 101;
+        padding: 35px;
+        text-align: center;
+      }
+
+      .place-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        max-height: 600px;
+        overflow-y: auto;
+      }
+
+      .place-card {
+        width: 300px;
+        background-color: #fff;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(200, 35, 35, 0.1);
+        text-align: center;
+      }
+
+      nav {
+        background-color: #7d3031;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+      }
+
+      .top-link {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border: 1px solid #fff;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      .place-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #8234db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="font-family: fantasy">INDIAN CHOCOLATE BAR</h1>
+      <div class="taskbar">
+        <a href="index.html">Home</a>
+        <a href="about.html"> About</a>
+        <a href="honesty.html">Honesty</a>
+        <a href="product_register.html">product_register</a>
+        <a href="reflection.html">reflection</a>
+        <!-- Add more links as needed -->
+      </div>
+    </header>
+
+    <section class="place-grid">
+      <!-- Place Card 1 -->
+      <div class="place-card">
+        <img
+          src="https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cadbury-chocolates.jpg"
+          alt="Place 1"
+        />
+        <h2>Cadbury Chocolates</h2>
+        <p>
+          Cadbury Dairy milk chocolates are some of the best chocolates in India and the world’s
+          largest brands of chocolates.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Cadbury_Dairy_Milk" target="_blank">
+          <button>Explore More</button>
+        </a>
+      </div>
+
+      <div class="place-card">
+        <img
+          src="https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/nestle-chocolates.jpg"
+          alt="Place 1"
+        />
+        <h2>Nestle Chocolates</h2>
+        <p>
+          Popularly known for breakfast Cereals and Maggi Noodles, Nestle is the parent company for
+          Kit Kat, MilkyBar, and Bar One.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Nestl%C3%A9_Milk_Chocolate" target="_blank">
+          <button>Explore More</button>
+        </a>
+      </div>
+
+      <div class="place-card">
+        <img
+          src="https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/amul-chocolates.jpg"
+          alt="Place 1"
+        />
+        <h2>Amul Chocolate</h2>
+        <p>
+          The chocolate list would be incomplete without Amul chocolates. Found in 1956 in Gujarat,
+          Amul is one of India's oldest and most popular dairy companies.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Amul" target="_blank">
+          <button>Explore More</button>
+        </a>
+      </div>
+      <div class="place-card">
+        <img
+          src="https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/mars-chocolates.jpg"
+          alt="Place 1"
+        />
+        <h2>Mars Chocolate</h2>
+        <p>
+          Mars brand manufactures chocolates, chewing gums, and mints. The brand also makes Snickers
+          Chocolate Bars, with caramel, peanuts, and milk.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Mars_bar" target="_blank">
+          <button>Explore More</button>
+        </a>
+      </div>
+      <div class="place-card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LOTTE_-_CHOCO_PIE.jpg/220px-LOTTE_-_CHOCO_PIE.jpg"
+          alt="Place 1"
+        />
+        <h2>Lotte Choco-Pie</h2>
+        <p>
+          Lotte chocolates are some of the most popular chocolate brands in India, with a
+          lip-smacking taste.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Choco_pie">
+          <button>Explore More</button>
+        </a>
+      </div>
+      <div class="place-card">
+        <img
+          src="https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/pacari-chocolates.jpg"
+          alt="Place 2"
+        />
+        <h2>Pacri Chocolate</h2>
+        <p>
+          Pacari is one of the most popular chocolate companies in India and the world over. The
+          brand is known for its genuine 100% cacao chocolates, known to be the best dark chocolates
+          in the world. Pacari chocolates are enriched with antioxidants, making them ideal for
+          those looking for low-sugar or sugar-free chocolate alternatives.
+        </p>
+        <a href="https://es.wikipedia.org/wiki/Chocolate_Pacari" target="_blank">
+          <button>Explore More</button>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Indian Chocolates. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
